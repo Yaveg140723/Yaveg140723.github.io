@@ -1,0 +1,74 @@
+body {
+    margin: 5px;
+    padding: 0;
+    text-align: left; /* Centre le texte a gauche */
+    font-family: Helvetica, arial, sans-serif; /* Set all body font to Helvetica */
+}
+
+header {
+    position: relative; /* Permet la superposition */
+    text-align: center;
+}
+
+h1 {
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    margin: 0;
+    position: relative; /* Permet de le superposer avec l’image */    
+}
+
+/* Set border radius 5px for all images*/
+img {
+    border-radius: 5px;
+}
+  
+  /* Set header class=banner background-image */
+  .banner {
+    background-image: url("Images/pattern.jpeg");
+    border-radius: 5px;
+  }
+  
+  /* Set <h1> header font size, weight, color, and center text alignment */
+  h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+  }
+  
+  /* Set top margin for each section to 50px */
+  section {
+    margin: 40px 0 0 0;
+  }
+  
+/* Common styles for all section headings */
+.section_heading {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Unique background colors for different sections */
+#brushes {
+    background-color: mediumspringgreen;
+}
+
+#frames {
+    background-color: lightcoral;
+}
+
+#paint {
+    background-color: skyblue;
+}
+  
+  /* Make span text bold and blue */
+  span {
+    font-weight: bold;
+    color: blue;
+  }
+
