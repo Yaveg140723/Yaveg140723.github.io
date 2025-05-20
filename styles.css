@@ -27,7 +27,7 @@ img {
   
   /* Set header class=banner background-image */
   .banner {
-    background-image: url("Images/pattern.jpeg");
+    background-image: url("pattern.jpeg");
     border-radius: 5px;
   }
   
